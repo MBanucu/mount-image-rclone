@@ -10,6 +10,10 @@ Disk image mounting via rclone (cross-platform FUSE).
 [![CI](https://img.shields.io/github/actions/workflow/status/MBanucu/mount-image-rclone/test.yml?branch=main)](https://github.com/MBanucu/mount-image-rclone/actions/workflows/test.yml)
 [![codecov](https://codecov.io/gh/MBanucu/mount-image-rclone/branch/main/graph/badge.svg)](https://codecov.io/gh/MBanucu/mount-image-rclone)
 
+[![Downloads total](https://pepy.tech/badge/mount-image-rclone)](https://pepy.tech/project/mount-image-rclone)
+[![Downloads/month](https://pepy.tech/badge/mount-image-rclone/month)](https://pepy.tech/project/mount-image-rclone)
+[![Downloads/week](https://pepy.tech/badge/mount-image-rclone/week)](https://pepy.tech/project/mount-image-rclone)
+
 ## Quick start
 
 ```python
