@@ -23,7 +23,7 @@ def mount_image(source: str, fstype: str | None = None,
     r = subprocess.run(cmd, capture_output=True, text=True)
     if r.returncode != 0:
         shutil.rmtree(mount_point, ignore_errors=True)
-        raise RuntimeError(f"rclone mount failed: {r.stderr}")
+        raise RuntimeError(f"rclone mount failed: {r.stderr.strip()}")
 
     return mount_point, mount_point
 
